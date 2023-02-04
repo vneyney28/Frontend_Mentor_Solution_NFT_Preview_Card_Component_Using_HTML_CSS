@@ -1,0 +1,93 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    /* background-color: white; */
+    
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    text-align: center;
+    border-radius: 0.985rem;    
+    background-color: hsl(216, 50%, 16%);   
+    width: 350px;
+    min-height: 60vh;
+    
+}
+.cube-image{
+    border-radius: 0.985rem;
+    height: 300px;        
+    margin: 10px;        
+}
+.footer {
+    font-size: 18px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 10px;
+    width: 100%;    
+    text-align: center;
+    margin-bottom: 19px;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Outfit', sans-serif;
+    color: whitesmoke;    
+  }
+  a{
+    color: white;
+  }
+  h2{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-weight: 600;
+    color: white; 
+    margin-left: 15px;
+  }
+  p{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    margin-left: 15px;
+  }
+  .cost{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Outfit', sans-serif;
+    color:  hsl(178, 100%, 50%);
+    margin-left: 15px;
+    margin-right: 110px;
+  }
+  .time-left{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Outfit', sans-serif;
+    color: white;
+    margin-right: 15px;
+  }
+  #creation{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Outfit', sans-serif;
+    margin-left: 15px;;
+    color: hsl(215, 51%, 70%);    
+  }
+  #name{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Outfit', sans-serif;
+    color: white;
+    font-weight: 400;
+  }
+  hr {
+    margin: 30px 0;
+    height: 1px;
+    border: none;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, gray));
+}
+.avatar{
+    margin: 10px;
+    margin-bottom: 30px;
+    height: 50px;
+    border: solid lightyellow;
+    border-radius: 3.985rem;
+}
+#btext{
+    margin-left: 50px;
+}
